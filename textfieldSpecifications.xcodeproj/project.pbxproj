@@ -12,6 +12,7 @@
 		4EF8B9881CF105FA00053C3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EF8B9861CF105FA00053C3C /* Main.storyboard */; };
 		4EF8B98A1CF105FA00053C3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EF8B9891CF105FA00053C3C /* Assets.xcassets */; };
 		4EF8B98D1CF105FA00053C3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EF8B98B1CF105FA00053C3C /* LaunchScreen.storyboard */; };
+		4EF8B9951CF1062300053C3C /* MemeTextDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF8B9941CF1062300053C3C /* MemeTextDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		4EF8B9891CF105FA00053C3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4EF8B98C1CF105FA00053C3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4EF8B98E1CF105FA00053C3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EF8B9941CF1062300053C3C /* MemeTextDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemeTextDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				4EF8B9821CF105FA00053C3C /* AppDelegate.swift */,
 				4EF8B9841CF105FA00053C3C /* ViewController.swift */,
+				4EF8B9941CF1062300053C3C /* MemeTextDelegate.swift */,
 				4EF8B9861CF105FA00053C3C /* Main.storyboard */,
 				4EF8B9891CF105FA00053C3C /* Assets.xcassets */,
 				4EF8B98B1CF105FA00053C3C /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			files = (
 				4EF8B9851CF105FA00053C3C /* ViewController.swift in Sources */,
 				4EF8B9831CF105FA00053C3C /* AppDelegate.swift in Sources */,
+				4EF8B9951CF1062300053C3C /* MemeTextDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
